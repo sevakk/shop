@@ -14,15 +14,14 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container p-0">
         <div class="row ">
             <nav class="navbar navbar-light bg-light col-12">
                 <div class="col-md-4 col-xl-6 d-none d-md-block pt-2 text-warning"> <span
                         class="navbar-brand mb-0 h1">telephone:
                         54564654564</span></div>
 
-
-                <div class="form-group  col-6 col-md-2">
+                <div class="form-group col-6 col-md-2">
                     <select class="form-control">
                         <option>AMD</option>
                         <option>EUR</option>
@@ -31,19 +30,18 @@
                         <option>GBP</option>
                     </select>
                 </div>
-                <div class="form-group  col-6 col-md-2">
+                <div class="form-group col-6 col-md-2">
                     <select class="form-control">
                         <option>AM</option>
                         <option>RU</option>
                         <option>EN</option>
                     </select>
                 </div>
-                <div class=" col-md-4 col-lg-2 d-none d-md-block ">
+                <div class=" col-md-4 col-lg-2 d-none d-md-block">
                     <button type="button" class="btn btn-dark">
                         Wishlist <span class="badge badge-light">4</span>
                     </button>
                 </div>
-
             </nav>
         </div>
 
@@ -152,293 +150,80 @@
                 </div>
         </div>
 
-        <nav class="row" aria-label="breadcrumb">
-            <ol class="breadcrumb col-10" ->
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a href="shop page.html">Category</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Shop</li>
-            </ol>
-            <div class=" mt-2 d-none d-md-block col-md-2">
-                <select class="custom-select custom-select-sm">
-                    <option selected>Sort By</option>
-                    <option value="1">Name</option>
-                    <option value="2">Price hight-low</option>
-                    <option value="3">Price low-hight</option>
-                </select>
-            </div>
-        </nav>
+
         <div class="row">
-            <div class="d-none d-md-block col-md-2 bg-light">
-                <p>
-                    <a class="btn" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
-                        aria-controls="collapseExample">Type</a>
-                </p>
-                <div class="collapse" id="collapseExample">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1">
-                            Quarz
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                        <label class="form-check-label" for="defaultCheck2">
-                            Automatic
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
-                        <label class="form-check-label" for="defaultCheck3">
-                            Solar-Powered
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
-                        <label class="form-check-label" for="defaultCheck4">
-                            Dress
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
-                        <label class="form-check-label" for="defaultCheck5">
-                            Chronograph
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
-                        <label class="form-check-label" for="defaultCheck6">
-                            Dive
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck7">
-                        <label class="form-check-label" for="defaultCheck7">
-                            Smartwatches
-                        </label>
-                    </div>
-                </div>
-                <p>
-                    <a class="btn" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false"
-                        aria-controls="collapseExample">
-                        Water Resistance
-                    </a>
-                </p>
-                <div class="collapse" id="collapseExample1">
+            <table class="table col-12">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Product</th>
+                        <th scope="col">Quality</th>
+                        <th scope="col">Price</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>
+                            <img class="img-fluid" src="images/img.jpg" width="60px" height="60px" alt="">
+                            Watch
+                        </td>
+                        <td>1</td>
+                        <td>100$</td>
+                        <td>
+                            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>
+                            <img class="img-fluid" src="images/img.jpg" width="60px" height="60px" alt="">
+                            Watch
+                        </td>
+                        <td>2</td>
+                        <td>200$</td>
+                        <td>
+                            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>
+                            <img class="img-fluid" src="images/img.jpg" width="60px" height="60px" alt="">
+                            Watch
+                        </td>
+                        <td>1</td>
+                        <td>100$</td>
+                        <td>
+                            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
 
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
-                        <label class="form-check-label" for="defaultCheck8">
-                            3 BAR / 3 ATM / 30m
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck9">
-                        <label class="form-check-label" for="defaultCheck9">
-                            5 BAR / 5 ATM / 50m
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
-                        <label class="form-check-label" for="defaultCheck10">
-                            10 BAR / 10 ATM / 100m
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck11">
-                        <label class="form-check-label" for="defaultCheck11">
-                            20 BAR / 20 ATM / 200m
-                        </label>
-                    </div>
-                </div>
-                <p>
-                    <a class="btn" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false"
-                        aria-controls="collapseExample">
+                        <td>
+                            <h4>Total Price</h4>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <h4>400$</h4>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-light" data-toggle="modal"
+                                data-target="#exampleModal3">Chekout</button>
+                        </td>
 
-                        Materal
-                    </a>
-                </p>
-                <div class="collapse" id="collapseExample2">
-
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck12">
-                        <label class="form-check-label" for="defaultCheck12">
-                            Gold
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck13">
-                        <label class="form-check-label" for="defaultCheck13">
-                            Silver
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck14">
-                        <label class="form-check-label" for="defaultCheck14">
-                            Plastic
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck15">
-                        <label class="form-check-label" for="defaultCheck15">
-                            Glass
-                        </label>
-                    </div>
-                </div>
-                <p>
-                    <a class="btn" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false"
-                        aria-controls="collapseExample">
-
-                        Brand
-                    </a>
-                </p>
-                <div class="collapse" id="collapseExample3">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck16">
-                        <label class="form-check-label" for="defaultCheck16">
-                            Rolex
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck17">
-                        <label class="form-check-label" for="defaultCheck17">
-                            Patek Philippe
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck18">
-                        <label class="form-check-label" for="defaultCheck18">
-                            Blancpain
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck19">
-                        <label class="form-check-label" for="defaultCheck19">
-                            Chopard
-                        </label>
-                    </div>
-                </div>
-            </div>
-            <div class="col-10 row m-0 pr-0">
-                <div class="card mb-3 col-12 col-md-6 col-lg-12">
-                    <div class="row no-gutters ">
-                        <div class="col-lg-4">
-                            <img src="images/img.jpg"
-                                class="card-img img-fluid" alt="...">
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="card-body row">
-                                <div class="col-12 col-lg-9">
-                                    <a href="product page.html" class="card-title">
-                                        <h4>Watch</h4>
-                                    </a>
-                                    <p class="card-text">A quartz clock is a clock that uses an electronic oscillator
-                                        that is regulated by a quartz crystal to keep time.</p>
-                                </div>
-                                <div class="text-center col-lg-3 col-12">
-                                    <h3>100$</h3>
-                                    <a href="cart.html" class="btn btn-primary">Add to Card</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card mb-3 col-12 col-md-6 col-lg-12">
-                    <div class="row no-gutters ">
-                        <div class="col-lg-4">
-                            <img src="images/img.jpg"
-                                class="card-img img-fluid" alt="...">
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="card-body row">
-                                <div class="col-12 col-lg-9">
-                                    <a href="product page.html" class="card-title">
-                                        <h4>Watch</h4>
-                                    </a>
-                                    <p class="card-text">A quartz clock is a clock that uses an electronic oscillator
-                                        that is regulated by a quartz crystal to keep time.</p>
-                                </div>
-                                <div class="text-center col-lg-3 col-12">
-                                    <h3>100$</h3>
-                                    <a href="cart.html" class="btn btn-primary">Add to Card</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card mb-3 col-12 col-md-6 col-lg-12">
-                    <div class="row no-gutters ">
-                        <div class="col-lg-4">
-                            <img src="images/img.jpg"
-                                class="card-img img-fluid" alt="...">
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="card-body row">
-                                <div class="col-12 col-lg-9">
-                                    <a href="product page.html" class="card-title">
-                                        <h4>Watch</h4>
-                                    </a>
-                                    <p class="card-text">A quartz clock is a clock that uses an electronic oscillator
-                                        that is regulated by a quartz crystal to keep time.</p>
-                                </div>
-                                <div class="text-center col-lg-3 col-12">
-                                    <h3>100$</h3>
-                                    <a href="cart.html" class="btn btn-primary">Add to Card</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card mb-3 col-12 col-md-6 col-lg-12">
-                    <div class="row no-gutters ">
-                        <div class="col-lg-4">
-                            <img src="images/img.jpg"
-                                class="card-img img-fluid" alt="...">
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="card-body row">
-                                <div class="col-12 col-lg-9">
-                                    <a href="product page.html" class="card-title">
-                                        <h4>Watch</h4>
-                                    </a>
-                                    <p class="card-text">A quartz clock is a clock that uses an electronic oscillator
-                                        that is regulated by a quartz crystal to keep time.</p>
-                                </div>
-                                <div class="text-center col-lg-3 col-12">
-                                    <h3>100$</h3>
-                                    <a href="cart.html" class="btn btn-primary">Add to Card</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card mb-3 col-12">
-                    <div class="row no-gutters ">
-                        <div class="col-lg-4">
-                            <img src="images/img.jpg"
-                                class="card-img img-fluid" alt="...">
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="card-body row">
-                                <div class="col-12 col-lg-9">
-                                    <a href="product page.html" class="card-title">
-                                        <h4>Watch</h4>
-                                    </a>
-                                    <p class="card-text">A quartz clock is a clock that uses an electronic oscillator
-                                        that is regulated by a quartz crystal to keep time.</p>
-                                </div>
-                                <div class="text-center col-lg-3 col-12">
-                                    <h3>100$</h3>
-                                    <a href="cart.html" class="btn btn-primary">Add to Card</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-
-
-
 
 
 
@@ -557,6 +342,7 @@
             </div>
         </div>
     </div>
+    <!-- Modal -->
 
     <div class="modal fade" id="loginmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
@@ -664,6 +450,199 @@
                 </form>
             </div>
 
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="text-center">Payment method</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                                <p>Credit card</p>
+                                <form>
+                                    <div class="form-group">
+                                        <label>Credit cart number</label>
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <select id="inputState" class="form-control">
+                                                <option selected>Month</option>
+                                                <option>January</option>
+                                                <option>Februar</option>
+                                                <option>March</option>
+                                                <option>April</option>
+                                                <option>May</option>
+                                                <option>June</option>
+                                                <option>July</option>
+                                                <option>August</option>
+                                                <option>September</option>
+                                                <option>October</option>
+                                                <option>November</option>
+                                                <option>December</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <select id="inputState" class="form-control">
+                                                <option selected>Year</option>
+                                                <option>2020</option>
+                                                <option>2019</option>
+                                                <option>2018</option>
+                                                <option>2017</option>
+                                                <option>2016</option>
+                                                <option>2015</option>
+                                                <option>2014</option>
+                                                <option>2013</option>
+                                                <option>2012</option>
+                                                <option>2011</option>
+                                                <option>2010</option>
+                                                <option>2009</option>
+                                                <option>2008</option>
+                                                <option>2007</option>
+                                                <option>2006</option>
+                                                <option>2005</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Name on card</label>
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-8">
+                                            <label for="inputAdress">Street Adress</label>
+                                            <input type="text" class="form-control" id="inputEmail4">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="inputPassword">CVC</label>
+                                            <input type="password" class="form-control" id="inputPassword4">
+                                        </div>
+                                    </div>
+                                </form>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                                value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+
+                                <p>All</p>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">
+                                        <img class="img-fluid" width="60px" height="60px"
+                                            src="https://lh3.googleusercontent.com/6FepDlbwUQtqoRj8qvH-Ia9drYqSGoVHVycuWDfY3-TPKeCWmYC_3V49j0fSDtz_5wnI"
+                                            alt="">
+
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">
+                                        <img width="60px" height="60px"
+                                            src="https://www.ucom.am/imgs/news/1/15511799729238.png" alt=""
+                                            class="img-fluid">
+
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio3" value="option3">
+                                    <label class="form-check-label" for="inlineRadio3">
+                                        <img width="60px" height="60px" src="https://telcellmoney.am/img/logo500.png"
+                                            alt="" class="img-fluid">
+                                    </label>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal4"
+                        data-dismiss="modal">
+                        Shipping
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabe4"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Shipping address</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <form>
+                        <div class="form-group">
+                            <label>Country</label>
+                            <select class="form-control">
+                                <option>Untitled States</option>
+                                <option>Russia</option>
+                                <option>China</option>
+                                <option>Armenia</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Ful name</label>
+                            <input class="form-control" type="text">
+                        </div>
+                        <div class="form-row">
+
+                            <div class="col-md-7">
+                                <label>Street</label>
+                                <input class="form-control" type="text">
+                            </div>
+
+                            <div class="col-md-5">
+                                <label>Apt/Suite/Other</label>
+                                <input class="form-control" type="text">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-4">
+                                <label>Zip code</label>
+                                <input class="form-control" type="text">
+                            </div>
+                            <div class="col-lg-4">
+                                <label>City</label>
+                                <input class="form-control" type="text">
+                            </div>
+                            <div class="col-lg-4">
+                                <label>State</label>
+                                <select class="form-control">
+                                    <option>Alabama</option>
+                                    <option>Alaska</option>
+                                    <option>Arizona</option>
+                                    <option>California</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary" href="place order.html">Place order</a>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Optional JavaScript -->

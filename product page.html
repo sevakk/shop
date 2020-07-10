@@ -11,7 +11,7 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 
-    <title>Hello, world!</title>
+    <title>Shop</title>
 </head>
 
 <body>
@@ -50,7 +50,7 @@
 
         <div class="row ">
             <nav class="navbar navbar-light bg-dark col-12">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="https://icons.iconarchive.com/icons/custom-icon-design/office/256/cart-icon.png"
                         height="40px" width="100px">
                 </a>
@@ -68,8 +68,8 @@
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" data-target="#loginmodal" data-toggle="modal" href="#">Login</a>
                         <a class="dropdown-item" data-target="#registermodal" data-toggle="modal" href="#">Register</a>
-                        <a class="dropdown-item" href="#">My Orders</a>
-                        <a class="dropdown-item" href="#">Account SettingsS</a>
+                        <a class="dropdown-item" href="my orders.html">My Orders</a>
+                        <a class="dropdown-item" href="account settings.html">Account Settings</a>
                     </div>
                 </div>
             </nav>
@@ -154,325 +154,515 @@
         </div>
 
 
-
+        <nav aria-label="breadcrumb" class="ml-n3 mr-n3">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="shop page.html">Category</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Wach</li>
+            </ol>
+        </nav>
+        <h1 class="text-decoration-none">Watch</h1>
         <div class="row">
-            <div class="row col-5">
-                <div class="col-2">
+
+
+            <div class="row col-12 col-lg-5">
+                <div class="col-3 p-0">
+                    <a data-fancybox="gallery" href="images/img.jpg">
+                        <img src="images/img.jpg"
+                            class="img-fluid mt-1"></a>
+                    <a data-fancybox="gallery" href="images/img.jpg">
+                        <img src="images/img.jpg"
+                            class="img-fluid mt-1"></a>
                     <a data-fancybox="gallery"
-                        href="https://www.roudstudio.com/images/works/product-photo/img07.jpg"><img
-                            src="https://www.roudstudio.com/images/works/product-photo/img07.jpg" class="img-fluid"></a>
+                        href="images/img.jpg"><img
+                            src="images/img.jpg"
+                            class="img-fluid mt-1"></a>
                     <a data-fancybox="gallery"
-                        href="https://www.roudstudio.com/images/works/product-photo/img07.jpg"><img
-                            src="https://www.roudstudio.com/images/works/product-photo/img07.jpg" class="img-fluid"></a>
-                    <a data-fancybox="gallery"
-                        href="https://www.roudstudio.com/images/works/product-photo/img07.jpg"><img
-                            src="https://www.roudstudio.com/images/works/product-photo/img07.jpg" class="img-fluid"></a>
-                    <a data-fancybox="gallery"
-                        href="https://www.roudstudio.com/images/works/product-photo/img07.jpg"><img
-                            src="https://www.roudstudio.com/images/works/product-photo/img07.jpg" class="img-fluid"></a>
+                        href="images/img.jpg"><img
+                            src="images/img.jpg"
+                            class="img-fluid mt-1"></a>
                 </div>
-                <div class="col-10">
+                <div class="col-9 pl-1">
                     <a data-fancybox="gallery"
-                        href="https://www.roudstudio.com/images/works/product-photo/img07.jpg"><img
-                            src="https://www.roudstudio.com/images/works/product-photo/img07.jpg" class="img-fluid"></a>
+                        href="images/img.jpg"><img
+                            src="images/img.jpg"
+                            class="img-fluid mt-1"></a>
                 </div>
             </div>
-            <div class="col-7">
-                <div>
-                    <h1>PRICE</h1>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                    
+            <div class="col-12 col-lg-7">
+                <h3>100$</h3>
+                <div class="row">
+
+                    <div class="input-group mb-3 col-6">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default">Quality</span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-default">
+                    </div>
+                    <div class="col-6">
+                        <a href="cart.html" class="btn btn-primary">Add To Card</a>
+                    </div>
+
                 </div>
-                <div class="custom-control custom-switch">
+                <h5>Color</h5>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline1">Black</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline2">White</label>
+                </div>
+
+                <div class="custom-control custom-switch col-6">
                     <input type="checkbox" class="custom-control-input" id="customSwitch1">
-                    <label class="custom-control-label" for="customSwitch1">Toggle this switch element</label>
-                  </div>
-                  <div class="custom-control custom-switch">
-                    <input type="checkbox" class="custom-control-input" disabled id="customSwitch2">
-                    <label class="custom-control-label" for="customSwitch2">Disabled switch element</label>
-                  </div>
+                    <label class="custom-control-label" for="customSwitch1">Delivery</label>
+                </div>
             </div>
 
-            <div class="accordion" id="accordionExample">
-                <div class="card">
-                    <div class="card-header" id="headingOne">
-                        <h2 class="mb-0">
-                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
-                                data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Collapsible Group Item #1
-                            </button>
-                        </h2>
-                    </div>
 
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                        data-parent="#accordionExample">
-                        <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                            probably haven't heard of them accusamus labore sustainable VHS.
-                        </div>
+        </div>
+        <div class="accordion ml-n3 mr-n3" id="accordionExample">
+            <div class="d-flex w-100">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            specification
+                        </button>
+                    </h2>
+                </div>
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Review
+                        </button>
+                    </h2>
+                </div>
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Rating
+                        </button>
+                    </h2>
+                </div>
+            </div>
+            <div class="card">
+
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                        It is a hybrid smartwatch that comes with a standard 40 mm dial that is just 3.2 mm at its
+                        thinnest point. The small dial shows step count and connects to Android or iPhone over
+                        Bluetooth. Call notification, Reminder and Alarm with vibration. It has a stainless steel case,
+                        water-resistant body and a curved back
+
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-header" id="headingTwo">
-                        <h2 class="mb-0">
-                            <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                                aria-controls="collapseTwo">
-                                Collapsible Group Item #2
-                            </button>
-                        </h2>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                        <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                            probably haven't heard of them accusamus labore sustainable VHS.
-                        </div>
+            </div>
+            <div class="card">
+
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Avatar
+                        Mikita • 4 years ago
+
+                        Spring Drive has much different construction and principle of function to put it here.
+
+                        1
+                        •
+                        Reply
+                        •
+                        Share ›
+
+                        −
+
+                        Avatar
+                        JordanKroeger • 4 years ago
+
+                        What about Campanola ??? Great article aside from this omission, nice to see some quartz love.
+
+                        M
+
+                        1
+                        •
+                        Reply
+                        •
+                        Share ›
+
+                        Avatar
+                        Ethan Danstrom • 4 years ago
+
+                        On my very short list of quartz watches is the Stop2Go: https://www.mondaine.com/wa...
+
+                        Great visual design and a really unique implementation of a quartz movement(s).
+
+                        1
+                        •
+                        Reply
+                        •
+                        Share ›
+
+                        Avatar
+                        Jerome • a year ago
+
+                        I think the most interesting quartz movement is the new Junghans Mega J101.65
+
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-header" id="headingThree">
-                        <h2 class="mb-0">
-                            <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                                aria-controls="collapseThree">
-                                Collapsible Group Item #3
-                            </button>
-                        </h2>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                        data-parent="#accordionExample">
-                        <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                            probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+            <div class="card">
+
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%"
+                                aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                                style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%"
+                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
+                                style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar"
+                                style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
-        <div class="bg-light col-12">
-            <h1 class="display-3 text-center">Daiyl Deals</h1>
+        <div class="row justify-content-center">
+            <div class="d-none d-md-block">
+                <h3 class="display-3 text-center">You might like</h3>
+            </div>
             <div class="justify-content-center ml-5 mr-5 row">
-                <div class="card col-12 col-sm-6 col-md-4 col-lg-2 col-lg-offset-1">
-                    <img src="https://www.roudstudio.com/images/works/product-photo/img07.jpg"
+                <div class="card col-lg-2 d-none d-md-block col-md-4">
+                    <img src="images/img.jpg"
                         class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's
-                            content.</p>
-                        <a href="product page.html" class="btn btn-primary">Go somewhere</a>
+                        <a href="product page.html" class="text-decoration-none">
+                            <h4>Watch</h4>
+                        </a>
+                        <h5 class="card-title">100$</h5>
+                        <p class="card-text">Quartz watch</p>
+                        <a href="cart.html" class="btn btn-primary">Add To Card</a>
                     </div>
                 </div>
-                <div class="card col-12 col-sm-6 col-md-4 col-lg-2">
-                    <img src="https://www.roudstudio.com/images/works/product-photo/img07.jpg"
+                <div class="card col-lg-2 d-none d-md-block col-md-4">
+                    <img src="images/img.jpg"
                         class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="product page.html" class="text-decoration-none">
+                            <h4>Watch</h4>
+                        </a>
+                        <h5 class="card-title">100$</h5>
+                        <p class="card-text">Quartz watch</p>
+                        <a href="cart.html" class="btn btn-primary">Add To Card</a>
                     </div>
                 </div>
-                <div class="card col-12 col-sm-12 col-md-4 col-lg-2">
-                    <img src="https://www.roudstudio.com/images/works/product-photo/img07.jpg"
+                <div class="card col-lg-2 d-none d-md-block col-md-4">
+                    <img src="images/img.jpg"
                         class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="product page.html" class="text-decoration-none">
+                            <h4>Watch</h4>
+                        </a>
+                        <h5 class="card-title">100$</h5>
+                        <p class="card-text">Quartz watch</p>
+                        <a href="cart.html" class="btn btn-primary">Add To Card</a>
                     </div>
                 </div>
-                <div class="card col-12 col-sm-6 col-md-6 col-lg-2">
-                    <img src="https://www.roudstudio.com/images/works/product-photo/img07.jpg"
+                <div class="card col-lg-2 d-none d-md-block col-md-6">
+                    <img src="images/img.jpg"
                         class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="product page.html" class="text-decoration-none">
+                            <h4>Watch</h4>
+                        </a>
+                        <h5 class="card-title">100$</h5>
+                        <p class="card-text">Quartz watch</p>
+                        <a href="cart.html" class="btn btn-primary">Add To Card</a>
                     </div>
                 </div>
-                <div class="card col-12 col-sm-6 col-md-6 col-lg-2">
-                    <img src="https://www.roudstudio.com/images/works/product-photo/img07.jpg"
+                <div class="card col-lg-2 d-none d-md-block col-md-6">
+                    <img src="images/img.jpg"
                         class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <nav aria-label="Page navigation example">
-                <ul class="pagination justify-content-center">
-                    <li class="page-item disabled">
-                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">Next</a>
-                    </li>
-                </ul>
-            </nav>
-
-
-
-            <div class="footer container-fluid p-0">
-                <div class="row text-center bg-light">
-                    <div class="col-12 col-md-3 border">
-                        <a href="#" class="text-uppercase text-dark text-decoration-none lead">CONTACT US</a>
-                    </div>
-                    <div class="col-12 col-md-3 border">
-                        <a href="#" class="text-uppercase text-dark text-decoration-none lead">LIVE CHAT</a>
-                    </div>
-
-                    <div class="col-12 col-md-3 border">
-                        <a href="#" class="text-uppercase text-dark text-decoration-none lead">SHIPPING</a>
-
-                    </div>
-                    <div class="col-12 col-md-3 border">
-                        <a href="#" class="text-uppercase text-dark text-decoration-none lead">TERM & CONDITIONS</a>
-
-                    </div>
-                </div>
-                <div class="row bg-light">
-                    <div class="col d-none d-md-block">
-                        <ul class="list-group list-group-flush rounded-bottom">
-                            <li class="list-group-item bg-light font-weight-bold">
-                                <a href="" class="text-decoration-none text-dark">Link Group 1</a></li>
-                            <li class="list-group-item bg-light">
-                                <a href="" class="text-decoration-none text-dark">link1</a></li>
-                            <li class="list-group-item bg-light">
-                                <a href="" class="text-decoration-none text-dark">link2</a></li>
-                            <li class="list-group-item bg-light">
-                                <a href="" class="text-decoration-none text-dark">link3</a></li>
-                            <li class="list-group-item bg-light">
-                                <a href="" class="text-decoration-none text-dark">link4</a></li>
-                        </ul>
-                    </div>
-                    <div class="col d-none d-md-block">
-                        <ul class="list-group list-group-flush rounded-bottom">
-                            <li class="list-group-item bg-light font-weight-bold">
-                                <a href="" class="text-decoration-none text-dark">Link Group 1</a></li>
-                            <li class="list-group-item bg-light">
-                                <a href="" class="text-decoration-none text-dark">link1</a></li>
-                            <li class="list-group-item bg-light">
-                                <a href="" class="text-decoration-none text-dark">link2</a></li>
-                            <li class="list-group-item bg-light">
-                                <a href="" class="text-decoration-none text-dark">link3</a></li>
-                            <li class="list-group-item bg-light">
-                                <a href="" class="text-decoration-none text-dark">link4</a></li>
-                        </ul>
-                    </div>
-                    <div class="col d-none d-md-block">
-                        <ul class="list-group list-group-flush rounded-bottom">
-                            <li class="list-group-item bg-light font-weight-bold">
-                                <a href="" class="text-decoration-none text-dark">Link Group 1</a></li>
-                            <li class="list-group-item bg-light">
-                                <a href="" class="text-decoration-none text-dark">link1</a></li>
-                            <li class="list-group-item bg-light">
-                                <a href="" class="text-decoration-none text-dark">link2</a></li>
-                            <li class="list-group-item bg-light">
-                                <a href="" class="text-decoration-none text-dark">link3</a></li>
-                            <li class="list-group-item bg-light">
-                                <a href="" class="text-decoration-none text-dark">link4</a></li>
-                        </ul>
-                    </div>
-                    <div class="col d-none d-md-block">
-                        <ul class="list-group list-group-flush rounded-bottom">
-                            <li class="list-group-item bg-light font-weight-bold">
-                                <a href="" class="text-decoration-none text-dark">Link Group 1</a></li>
-                            <li class="list-group-item bg-light">
-                                <a href="" class="text-decoration-none text-dark">link1</a></li>
-                            <li class="list-group-item bg-light">
-                                <a href="" class="text-decoration-none text-dark">link2</a></li>
-                            <li class="list-group-item bg-light">
-                                <a href="" class="text-decoration-none text-dark">link3</a></li>
-                            <li class="list-group-item bg-light">
-                                <a href="" class="text-decoration-none text-dark">link4</a></li>
-                        </ul>
-                    </div>
-                    <div class="col d-none d-md-block">
-                        <ul class="list-group list-group-flush rounded-bottom">
-                            <li class="list-group-item bg-light font-weight-bold">
-                                <a href="" class="text-decoration-none text-dark">Link Group 1</a></li>
-                            <li class="list-group-item bg-light">
-                                <a href="" class="text-decoration-none text-dark">link1</a></li>
-                            <li class="list-group-item bg-light">
-                                <a href="" class="text-decoration-none text-dark">link2</a></li>
-                            <li class="list-group-item bg-light">
-                                <a href="" class="text-decoration-none text-dark">link3</a></li>
-                            <li class="list-group-item bg-light">
-                                <a href="" class="text-decoration-none text-dark">link4</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row p-4 bg-dark ">
-                    <div class="col-md-4 d-none d-md-block  text-white">
-                        Fird us on:
-                    </div>
-                    <div class="col-12 col-md-4 ">
-                        <a href="https://www.facebook.com/"> <img class=" mr-2 ml-2"
-                                src="https://icons.iconarchive.com/icons/yootheme/social-bookmark/256/social-facebook-box-blue-icon.png"
-                                loading="lazy" width="30" height="30"></a>
-
-                        <a href="https://www.instagram.com/"> <img class=" mr-2 ml-2"
-                                src="https://icons.iconarchive.com/icons/designbolts/free-instagram/256/Active-Instagram-3-icon.png"
-                                loading="lazy" width="30" height="30"></a>
-                        <a href="https://twitter.com/explore"> <img class=" mr-2 ml-2"
-                                src="https://icons.iconarchive.com/icons/graphics-vibe/simple-rounded-social/256/twitter-icon.png"
-                                loading="lazy" width="30" height="30"></a>
-                        <a href="https://www.youtube.com/"> <img class=" mr-2 ml-2"
-                                src="https://icons.iconarchive.com/icons/dakirby309/simply-styled/256/YouTube-icon.png"
-                                loading="lazy" width="30" height="30"></a>
-                    </div>
-                    <div class="col-12 text-center col-md-4 ">
-                        <span class="lead text-capitalize text-white">©Tumo Center For Creative Technologies</span>
+                        <a href="product page.html" class="text-decoration-none">
+                            <h4>Watch</h4>
+                        </a>
+                        <h5 class="card-title">100$</h5>
+                        <p class="card-text">Quartz watch</p>
+                        <a href="cart.html" class="btn btn-primary">Add To Card</a>
                     </div>
                 </div>
             </div>
         </div>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-            crossorigin="anonymous"></script>
 
-        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+        <div class="footer container-fluid p-0">
+            <div class="row text-center bg-light">
+                <div class="col-12 col-md-3 border">
+                    <a href="#" class="text-uppercase text-dark text-decoration-none lead">CONTACT US</a>
+                </div>
+                <div class="col-12 col-md-3 border">
+                    <a href="#" class="text-uppercase text-dark text-decoration-none lead">LIVE CHAT</a>
+                </div>
+
+                <div class="col-12 col-md-3 border">
+                    <a href="#" class="text-uppercase text-dark text-decoration-none lead">SHIPPING</a>
+
+                </div>
+                <div class="col-12 col-md-3 border">
+                    <a href="#" class="text-uppercase text-dark text-decoration-none lead">TERM & CONDITIONS</a>
+
+                </div>
+            </div>
+            <div class="row bg-light">
+                <div class="col d-none d-md-block">
+                    <ul class="list-group list-group-flush rounded-bottom">
+                        <li class="list-group-item bg-light font-weight-bold">
+                            <a href="" class="text-decoration-none text-dark">Link Group 1</a></li>
+                        <li class="list-group-item bg-light">
+                            <a href="" class="text-decoration-none text-dark">link1</a></li>
+                        <li class="list-group-item bg-light">
+                            <a href="" class="text-decoration-none text-dark">link2</a></li>
+                        <li class="list-group-item bg-light">
+                            <a href="" class="text-decoration-none text-dark">link3</a></li>
+                        <li class="list-group-item bg-light">
+                            <a href="" class="text-decoration-none text-dark">link4</a></li>
+                    </ul>
+                </div>
+                <div class="col d-none d-md-block">
+                    <ul class="list-group list-group-flush rounded-bottom">
+                        <li class="list-group-item bg-light font-weight-bold">
+                            <a href="" class="text-decoration-none text-dark">Link Group 1</a></li>
+                        <li class="list-group-item bg-light">
+                            <a href="" class="text-decoration-none text-dark">link1</a></li>
+                        <li class="list-group-item bg-light">
+                            <a href="" class="text-decoration-none text-dark">link2</a></li>
+                        <li class="list-group-item bg-light">
+                            <a href="" class="text-decoration-none text-dark">link3</a></li>
+                        <li class="list-group-item bg-light">
+                            <a href="" class="text-decoration-none text-dark">link4</a></li>
+                    </ul>
+                </div>
+                <div class="col d-none d-md-block">
+                    <ul class="list-group list-group-flush rounded-bottom">
+                        <li class="list-group-item bg-light font-weight-bold">
+                            <a href="" class="text-decoration-none text-dark">Link Group 1</a></li>
+                        <li class="list-group-item bg-light">
+                            <a href="" class="text-decoration-none text-dark">link1</a></li>
+                        <li class="list-group-item bg-light">
+                            <a href="" class="text-decoration-none text-dark">link2</a></li>
+                        <li class="list-group-item bg-light">
+                            <a href="" class="text-decoration-none text-dark">link3</a></li>
+                        <li class="list-group-item bg-light">
+                            <a href="" class="text-decoration-none text-dark">link4</a></li>
+                    </ul>
+                </div>
+                <div class="col d-none d-md-block">
+                    <ul class="list-group list-group-flush rounded-bottom">
+                        <li class="list-group-item bg-light font-weight-bold">
+                            <a href="" class="text-decoration-none text-dark">Link Group 1</a></li>
+                        <li class="list-group-item bg-light">
+                            <a href="" class="text-decoration-none text-dark">link1</a></li>
+                        <li class="list-group-item bg-light">
+                            <a href="" class="text-decoration-none text-dark">link2</a></li>
+                        <li class="list-group-item bg-light">
+                            <a href="" class="text-decoration-none text-dark">link3</a></li>
+                        <li class="list-group-item bg-light">
+                            <a href="" class="text-decoration-none text-dark">link4</a></li>
+                    </ul>
+                </div>
+                <div class="col d-none d-md-block">
+                    <ul class="list-group list-group-flush rounded-bottom">
+                        <li class="list-group-item bg-light font-weight-bold">
+                            <a href="" class="text-decoration-none text-dark">Link Group 1</a></li>
+                        <li class="list-group-item bg-light">
+                            <a href="" class="text-decoration-none text-dark">link1</a></li>
+                        <li class="list-group-item bg-light">
+                            <a href="" class="text-decoration-none text-dark">link2</a></li>
+                        <li class="list-group-item bg-light">
+                            <a href="" class="text-decoration-none text-dark">link3</a></li>
+                        <li class="list-group-item bg-light">
+                            <a href="" class="text-decoration-none text-dark">link4</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row p-4 bg-dark ">
+                <div class="col-md-4 d-none d-md-block  text-white">
+                    Fird us on:
+                </div>
+                <div class="col-12 col-md-4 ">
+                    <a href="https://www.facebook.com/"> <img class=" mr-2 ml-2"
+                            src="https://icons.iconarchive.com/icons/yootheme/social-bookmark/256/social-facebook-box-blue-icon.png"
+                            loading="lazy" width="30" height="30"></a>
+
+                    <a href="https://www.instagram.com/"> <img class=" mr-2 ml-2"
+                            src="https://icons.iconarchive.com/icons/designbolts/free-instagram/256/Active-Instagram-3-icon.png"
+                            loading="lazy" width="30" height="30"></a>
+                    <a href="https://twitter.com/explore"> <img class=" mr-2 ml-2"
+                            src="https://icons.iconarchive.com/icons/graphics-vibe/simple-rounded-social/256/twitter-icon.png"
+                            loading="lazy" width="30" height="30"></a>
+                    <a href="https://www.youtube.com/"> <img class=" mr-2 ml-2"
+                            src="https://icons.iconarchive.com/icons/dakirby309/simply-styled/256/YouTube-icon.png"
+                            loading="lazy" width="30" height="30"></a>
+                </div>
+                <div class="col-12 text-center col-md-4 ">
+                    <span class="lead text-capitalize text-white">©Tumo Center For Creative Technologies</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="loginmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="registermodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="validationServer01">First name</label>
+                                <input type="text" class="form-control" id="validationServer01" required>
+                                <div class="invalid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="validationServer02">Last name</label>
+                                <input type="text" class="form-control" id="validationServer02" required>
+                                <div class="invalid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="validationServer01">Password</label>
+                                <input type="password" class="form-control" id="validationServer01" required>
+                                <div class="invalid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="validationServer01">Password</label>
+                                <input type="password" class="form-control" id="validationServer01" required>
+                                <div class="invalid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="validationServer01">Telephone Number</label>
+                                <input type="text" class="form-control" id="validationServer01" required>
+                                <div class="invalid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="validationServer03">City</label>
+                                    <input type="text" class="form-control" id="validationServer03" required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid city.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input " type="checkbox" value="" id="invalidCheck3" required>
+                        <label class="form-check-label" for="invalidCheck3">
+                            Agree to terms and conditions
+                        </label>
+                        <div class="invalid-feedback">
+                            You must agree before submitting.
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Submit form</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </body>
 
 </html>
